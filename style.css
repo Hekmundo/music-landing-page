@@ -1,0 +1,96 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #26333f;
+  height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  max-width: 90vw;
+  background-color: #26333f;
+}
+
+.artwork-container img {
+  width: 100%;
+}
+
+header {
+  align-self: flex-start;
+  margin-bottom: 2em;
+}
+
+h1,
+h2 {
+  letter-spacing: 0.0125em;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+ul {
+  padding: 0;
+  max-width: 100%;
+}
+
+li {
+  border-top: 2px solid #34404b;
+  padding: 3em 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid #b1b8bf;
+  border-radius: 3px;
+  color: #b1b8bf;
+  min-width: 140px;
+  padding: 0.6em;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.music-links {
+  width: 70vw;
+}
+
+.link-logo {
+  max-width: 150px;
+}
+
+@media screen and (min-width: 640px) {
+  section {
+    width: 500px;
+  }
+}
